@@ -53,7 +53,7 @@ function menu2() //ログインしていないユーザー用
 function menu3()
 {
   $menu3 = '<li class="nav-item"><a class="nav-link" href="index.php">todo登録</a></li><li class="nav-item"><a class="nav-link" href="select.php">todo一覧</a></li>';
-  $menu3 .= '<li class="nav-item"><a class="nav-link" href="../06_09_user_php/user_index.php">USER登録</a></li><li class="nav-item"><a class="nav-link" href="../06_09_user_php/user_select.php">USER一覧</a></li>';
+  $menu3 .= '<li class="nav-item"><a class="nav-link" href="../09_06_user_php/user_index.php">USER登録</a></li><li class="nav-item"><a class="nav-link" href="../09_06_user_php/user_select.php">USER一覧</a></li>';
   $menu3 .= '<li class="nav-item"><a class="nav-link" href="logout.php">ログアウト</a></li>';
   return $menu3;
 }
